@@ -1,6 +1,5 @@
 ## Demo
-![demo](https://github.com/wangxu627/canvas-and-sort-anim/master/image.png "demo")
-
+![demo](https://raw.githubusercontent.com/wangxu627/canvas-and-sort-anim/master/image.png "demo")
 ## Usage
 ```
 # clone
