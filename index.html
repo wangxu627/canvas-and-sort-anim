@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>Title</title>
+        <style>
+            html,body {
+                margin:0;
+                padding:0;
+            }
+
+            #canvas {
+                display:block;
+                margin-left:auto;
+                margin-right:auto
+            }
+
+            #code {
+                display:block;
+                margin-top:10px;
+                margin-left:auto;
+                margin-right:auto;
+                width:640px;
+                height:60px;
+            }
+
+            .container {
+                display:block;
+                text-align: center;
+                width:640px;
+                margin-top:10px;
+                margin-left:auto;
+                margin-right:auto;
+            }
+
+            /* #commit, #shuffle, #selector {
+                display:block;
+                margin-top:10px;
+                margin-left:auto;
+                margin-right:auto;
+            } */
+        </style>
+    </head>
+    <body>
+        <div>
+            <canvas id="canvas" width="640" height="480"></canvas>
+        </div>
+        <div>
+            <textarea id="code">[100,3,56,6,44,21,5,8,1,10]</textarea>
+            <div class="container">
+                <select id="selector">
+                    <option value ="sortSlowBubble">简单冒泡排序</option>
+                    <option value ="sortBubble">标准冒泡排序</option>
+                    <option value="sortSelection">选择排序</option>
+                    <option value="sortShell">希尔排序</option>
+                    <option value="sortHeap">堆排序</option>
+                    <option value="sortQuickNoRecursive">快速排序(无递归)</option>
+                </select>
+                <button id="commit">Commit</button>
+                <button id="shuffle">Shuffle</button>
+            </div>
+        </div>
+        <div style="position: fixed;top:0;right:5px">
+            <p id="text"></p>
+        </div>
+        <script src="bundle.js"></script>
+    </body>
+</html>
