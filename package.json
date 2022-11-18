@@ -9,7 +9,7 @@
     "babel-preset-es2015": "^6.24.1",
     "webpack": "^4.36.0",
     "webpack-dev-server": "^3.7.2",
-    "webpack-cli": "^3.3.6"
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
